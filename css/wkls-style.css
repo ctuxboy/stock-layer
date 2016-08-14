@@ -1,0 +1,19 @@
+.sl-in-stock {
+  opacity: 0;
+	display:block;
+	position:absolute;
+	width:100%;
+	top:2em;
+	left:0;
+	z-index:99;
+	text-align:center;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 3em 0em;
+	font-size: 1.5em;
+}
+
+.sl-in-stock:hover {
+	opacity:1;
+}
