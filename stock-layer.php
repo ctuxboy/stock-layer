@@ -18,5 +18,6 @@ add_action( 'woocommerce_before_shop_loop_item_title', function() {
 function wksl_scripts() { // adding css
 	wp_enqueue_style( 'wkls-style', plugins_url( '/css/wkls-style.css', __FILE__ ) );
 }
+// Hook the stylesheet to an action
 add_action( 'wp_enqueue_scripts', 'wksl_scripts' );
 ?>
